@@ -2,6 +2,7 @@
 // Debajo va el espacio para el catálogo de Animales - ESO es tu actividad.
 import EspecieList from './components/EspecieList';
 import RecintoList from './components/RecintoList';
+import AnimalCatalogo from './components/AnimalCatalogo';
 // import AnimalCatalogo from './components/AnimalCatalogo'; // lo crearás tú
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
 
       <EspecieList />
       <RecintoList />
+      <AnimalCatalogo />
 
       {/* 
         actividad: crear el componente AnimalCatalogo con:
